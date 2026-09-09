@@ -1,0 +1,7 @@
+UART - Universal Asynchronous Reciever/Transmitter
+way for 2 devices to communicate
+1 bit at a time, across 2 wires
+both sides agree in advanced on the speed AKA Baude Rate
+both timekeep independently
+-------------------------Typical UART FRAME--------------------------------
+IDLE → START BIT → DATA BITS (e.g. 8) → [PARITY BIT] → STOP BIT(S) → IDLE

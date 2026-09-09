@@ -1,0 +1,7 @@
+## Project Structure
+<project-name>/
+├── src/ # RTL design files (
+├── tb/ # testbenches 
+├── script/ # scripts to compile and run the simulation
+├── sim/ # compiled simulation output and waveform (.vcd) files
+└── README.md # this file — design notes, verification approach, how to run

@@ -30,7 +30,7 @@ module traffic_light_tb;
 
     always #5 clk = ~clk;
 
-    task compute_expected_next_state();
+    task calculate_expected_next_state();
         case (expected_state)
             RED: begin
                 if (expected_count == 4)
@@ -61,7 +61,7 @@ module traffic_light_tb;
     endtask
 
     task step_model();
-        compute_expected_next_state();
+        calculate_expected_next_state();
         if (tick_in) begin
             expected_count++;
         end else begin

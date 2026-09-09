@@ -1,0 +1,13 @@
+# Simulation outputs
+sim/*.vcd
+sim/*_sim
+sim/*.out
+sim/*.vvp
+
+# Editor/OS junk
+*.swp
+.vscode/
+.DS_Store
+
+# Logs
+*.log
